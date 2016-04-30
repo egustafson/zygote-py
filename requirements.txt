@@ -1,0 +1,2 @@
+CherryPy>=5.1.0
+click>=6.6

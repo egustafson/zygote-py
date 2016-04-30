@@ -8,8 +8,8 @@ Prerequisites
 None. (yet)
 
 
-Dev - Installation
-==================
+Installation
+============
 
 Install locally using:
 
@@ -28,3 +28,18 @@ The files will be deployed into a tree under ``~/.local``.  Adding
 ``~/.local/bin`` to your path is sufficient to execute the local
 copies, or run files from .local/bin using there full path.
 
+Testing
+=======
+
+Unit tests, using `Python unittest`_ can be run using Python Nose_ (v1)
+
+.. _Python unittest:  https://docs.python.org/3/library/unittest.html
+.. _Nose: https://nose.readthedocs.org/en/latest/
+
+.. code::
+   
+    > nosetests
+
+
+
+.. ## End of document
